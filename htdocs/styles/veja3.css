@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root{
+    --cor-primaria: #085e00;
+    --cor-secundaria: #FFEE00;
+    --cor-terciaria: #ffffff;
+    --cor-hover: #128903;
+
+    --fonte-primaria: 'Oswald', sans-serif;
+    --fonte-secundaria: 'Oswald', sans-serif;
+}
+body{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho{
+    width: 1124px;
+    margin: 61px auto 90px auto;
+}
+
+.galeria{
+    display:flex;
+    gap: 4px;
+}
+
+.card {
+    position: relative;
+    bottom: 50px;
+    left: 0px;
+    width: 80px;
+    border-radius: 4px;
+    padding: 8px;
+    height: 395px;
+    background-color: #ffffff;
+    transition: 0.4s ease-in-out;
+    flex: 1px;
+    font-weight: 600;
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+}
+
+.card:nth-child(1){
+    background-color: green;
+}
+
+.card:nth-child(2){
+    background-color: green;
+}
+
+.card:nth-child(3){
+    background-color: green;
+}
+
+.card:nth-child(4){
+    background-color: green;
+}
+
+.card:nth-child(5){
+    background-color: green;
+}
+
+.card:hover{
+    flex: 3;;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cabecalho_voltar{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px; 
+    font-weight: 600;
+    font-family: var(--fonte-secundaria);
+    margin-left: 20px;
+}
+nav a:hover{
+    color: #FFEE00
+}
